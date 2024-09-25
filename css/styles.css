@@ -8,8 +8,13 @@ a{
     text-decoration: none;
 }
 
-body{
+html{
     background-color: #fff;
+}
+body{
+    margin: auto;
+    width: 1440px;
+    background-color: wheat;
     color: #434455;
     font-family: "Roboto", sans-serif;
 }
@@ -18,14 +23,23 @@ body{
 /* header-styles */
 
 
-.navigation{
-    display: flex;
-    background-color: blue;
-}
 .page-header{
-    background-color: blue;
+    
+    height: 72px;
+    display: flex;
 }
+.navigation{
+    margin-left: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+}
+
 .main-logo{
+    
+
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -38,7 +52,15 @@ body{
 .main-logo-studio{
     color: #2e2f42;
 }
-
+.menu{
+    margin-left: 76px;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+}
 .menu-item-studio{
     font-weight: 500;
     font-size: 16px;
@@ -65,9 +87,29 @@ body{
 
 
 .contacts{
+    margin-left: 332px;
     font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    
+}
+
+.contact-list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
 }
 .contact-item{
+    
+    
+
+
+
     font-family: "Roboto", sans-serif;
     
     font-weight: 400;
@@ -88,11 +130,16 @@ body{
 
 .hero-section{
     background: #2e2f42;
+    width: 1440px;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
 }
 
 
 
 .hero-section-h{
+    margin: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -105,6 +152,23 @@ body{
 
 
 .hero-section-button{
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5; */
+
+
+
     cursor: pointer;
     background: #4d5ae5;
     font-family: "Roboto", sans-serif;
