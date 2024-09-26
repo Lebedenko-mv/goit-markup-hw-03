@@ -12,7 +12,7 @@ html{
     background-color: #fff;
 }
 body{
-    margin: auto;
+    /* margin: auto; */
     width: 1440px;
     background-color: wheat;
     color: #434455;
@@ -22,11 +22,17 @@ body{
 
 /* header-styles */
 
-
 .page-header{
-    
-    height: 72px;
+    /* height: 72px; */
+    border-bottom: 1px solid  #e7e9fc;
+}
+
+.container{
     display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+
 }
 .navigation{
     margin-left: 156px;
@@ -38,7 +44,7 @@ body{
 }
 
 .main-logo{
-    
+    margin-right: 76px;
 
     font-weight: 700;
     font-size: 18px;
@@ -53,7 +59,7 @@ body{
     color: #2e2f42;
 }
 .menu{
-    margin-left: 76px;
+    /* margin-left: 76px; */
     padding: 0;
     display: flex;
     align-items: flex-start;
@@ -62,6 +68,8 @@ body{
     gap: 40px;
 }
 .menu-item-studio{
+    padding: 24px 0;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -87,21 +95,21 @@ body{
 
 
 .contacts{
-    margin-left: 332px;
+    /* margin-left: 332px; */
     font-style: normal;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    /* flex-direction: row; */
+    /* gap: 0px; */
     
 }
 
 .contact-list{
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    /* flex-direction: row; */
     gap: 40px;
 }
 .contact-item{
