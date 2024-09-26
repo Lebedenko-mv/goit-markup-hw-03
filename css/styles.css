@@ -12,7 +12,7 @@ html{
     background-color: #fff;
 }
 body{
-    /* margin: auto; */
+    margin: auto;
     width: 1440px;
     background-color: wheat;
     color: #434455;
@@ -135,19 +135,22 @@ body{
 
 /* main */
 
-
 .hero-section{
+    /* margin: 0 auto; */
     background: #2e2f42;
     width: 1440px;
     height: 600px;
     justify-content: center;
     text-align: center;
+
+    padding: 188px 0;
 }
 
 
 
 .hero-section-h{
-    margin: 0;
+    margin: 0 auto;
+    max-width: 496px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -160,25 +163,15 @@ body{
 
 
 .hero-section-button{
-    /* display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    border: none;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-
-
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5; */
-
-
-
     cursor: pointer;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
