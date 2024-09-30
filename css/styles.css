@@ -258,7 +258,7 @@ img{
 
 .our-team-section-item{
     background-color: #fff;
-    width:calc((100% - 72px)/4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -283,6 +283,8 @@ img{
 }
 
 .our-team-section-list{
+    margin: 0;
+    padding: 0;
     display: flex;
     gap: 24px;
 }
@@ -307,8 +309,7 @@ img{
 /* ----------------------------------PORTFOLIO---------------------------------- */
 
 .our-portfolio-section .container{
-    padding-top: 120px;
-    padding-bottom: 120px;    
+    padding: 120px 0;    
 
 
     text-align: center;
@@ -367,8 +368,13 @@ img{
     letter-spacing: 0.02em;
 }
 
-/* footer                                                 */
 
+
+
+/* ------------------------------------FOOTER--------------------------------------------------- */
+/* ------------------------------------FOOTER--------------------------------------------------- */
+/* ------------------------------------FOOTER--------------------------------------------------- */
+/* ------------------------------------FOOTER--------------------------------------------------- */
 
 
 
@@ -378,8 +384,14 @@ img{
 
 .footer-section{
     background: #2e2f42;
+    padding: 100px 0;
 }
+
+
 .main-logo-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -395,6 +407,7 @@ img{
 
 
 .footer-section-p{
+    max-width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
