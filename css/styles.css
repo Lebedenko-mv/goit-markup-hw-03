@@ -308,10 +308,11 @@ img{
 /* ----------------------------------PORTFOLIO---------------------------------- */
 /* ----------------------------------PORTFOLIO---------------------------------- */
 
+
+.our-portfolio-section{
+    padding: 120px 0 120px 0;
+}
 .our-portfolio-section .container{
-    padding: 120px 0 120px 0;    
-
-
     text-align: center;
     justify-content: center;
 
@@ -393,6 +394,10 @@ img{
     display: flex;
     flex-direction: column; 
     justify-content: center;
+}
+
+.main-logo-footer a{
+    display: inline-block;
 }
 .main-logo-footer{
     display: inline-block;
