@@ -14,7 +14,6 @@ html{
 body{
     margin: 0 auto;
     width: 1440px;
-    background-color: wheat;
     color: #434455;
     font-family: "Roboto", sans-serif;
 }
@@ -98,21 +97,12 @@ img{
 
 
 .contacts{
-    /* margin-left: 332px; */
-    font-style: normal;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: flex-start; */
-    /* flex-direction: row; */
-    /* gap: 0px; */
-    
+
+    font-style: normal;    
 }
 
 .contact-list{
     display: flex;
-    /* align-items: flex-start; */
-    /* justify-content: flex-start; */
-    /* flex-direction: row; */
     gap: 40px;
 }
 .contact-item{
@@ -212,6 +202,8 @@ img{
     
 }
 .benefits-section-ul {
+    margin: 0;
+    padding: 0;
     display: flex;
     gap: 24px;
 }
@@ -250,7 +242,7 @@ img{
     color: #2e2f42;
     background: #f4f4fd;
 
-    padding: 120px;
+    padding: 120px 0;
     
 }
 
@@ -266,13 +258,13 @@ img{
 
 .our-team-section-item{
     background-color: #fff;
-    width: calc((100% - 72px) / 4);
+    width:calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-section-p{
     text-align: center;
-    
+
     font-size: 16px;
     line-height: 1.5;
     color:#434455;
@@ -309,9 +301,48 @@ img{
 
 
 
+/* ----------------------------------PORTFOLIO---------------------------------- */
+/* ----------------------------------PORTFOLIO---------------------------------- */
+/* ----------------------------------PORTFOLIO---------------------------------- */
+/* ----------------------------------PORTFOLIO---------------------------------- */
+
+.our-portfolio-section .container{
+    padding-top: 120px;
+    padding-bottom: 120px;    
 
 
+    text-align: center;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+
+.our-portfolio-section-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;    
+}
+.our-portfolio-section-list-item{
+    width: calc((100% - 48px) / 3);
+
+}
+
+.app-name-category{
+    padding: 32px 16px;
+    border: 1px solid  #e7e9fc;
+    border-top: none;
+    text-align-last: left;
+}
 .our-portfolio-section-main-h{
+    margin-bottom: 72px;
+
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -321,6 +352,7 @@ img{
 }
 
 .our-portfolio-section-litle-h{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
