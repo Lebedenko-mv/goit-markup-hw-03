@@ -309,7 +309,7 @@ img{
 /* ----------------------------------PORTFOLIO---------------------------------- */
 
 .our-portfolio-section .container{
-    padding: 120px 0;    
+    padding: 120px 0 120px 0;    
 
 
     text-align: center;
@@ -382,16 +382,26 @@ img{
 
 
 
-.footer-section{
+.footer-section {
     background: #2e2f42;
-    padding: 100px 0;
+    padding: 100px 0;   
 }
+.footer-section .container{
+    text-align: left;
+    justify-content: center;
 
-
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
 .main-logo-footer{
     display: inline-block;
     margin-bottom: 16px;
 
+    max-width: 115px;
+    max-height: 24px;
+
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -403,6 +413,7 @@ img{
 
 .main-logo-studio-footer{
     color: #f4f4fd;
+    display: inline-block;
 }
 
 
