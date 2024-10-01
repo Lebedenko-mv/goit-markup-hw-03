@@ -389,17 +389,18 @@ img{
     background: #2e2f42;
     padding: 100px 0;   
 }
-/* .footer-section .container{
+.footer-section .container{
     text-align: left;
     justify-content: center;
 
     display: flex;
     flex-direction: column; 
     justify-content: center;
-} */
+}
 
 .main-logo-footer{
-    display: inline-block;
+    
+    /* display: inline-block; */
     margin-bottom: 16px;
 
     max-width: 115px;
@@ -415,10 +416,13 @@ img{
     font-family: "Raleway", sans-serif;
 }
 
-.main-logo-studio-footer{
-    
-    color: #f4f4fd;
+.main-logo-footer a{
     display: inline-block;
+}
+
+
+.main-logo-studio-footer{
+    color: #f4f4fd;
 }
 
 
