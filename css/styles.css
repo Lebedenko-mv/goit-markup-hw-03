@@ -393,13 +393,13 @@ img{
     text-align: left;
     justify-content: center;
 
-    display: flex;
+    /* display: flex; */
     flex-direction: column; 
     justify-content: center;
 }
 
 
-.main-logo-footer a{
+.main-logo-footer{
     display: inline-block;
     margin-bottom: 16px;
 
@@ -419,6 +419,7 @@ img{
 .main-logo-studio-footer{
     
     color: #f4f4fd;
+    /* display: inline-block; */
 }
 
 
