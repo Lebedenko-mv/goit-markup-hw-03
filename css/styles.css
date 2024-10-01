@@ -398,7 +398,9 @@ img{
     justify-content: center;
 }
 
-
+a{
+    display: inline-block;
+}
 .main-logo-footer{
     display: inline-block;
     margin-bottom: 16px;
@@ -419,7 +421,7 @@ img{
 .main-logo-studio-footer{
     
     color: #f4f4fd;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 
