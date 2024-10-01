@@ -392,14 +392,14 @@ img{
     background: #2e2f42;
     padding: 100px 0;   
 }
-.footer-section .container{
+/* .footer-section .container{
     text-align: left;
     justify-content: center;
 
     display: flex;
     flex-direction: column; 
     justify-content: center;
-}
+} */
 
 .main-logo-footer{
     
