@@ -389,18 +389,15 @@ img{
     background: #2e2f42;
     padding: 100px 0;   
 }
-.footer-section .container{
+/* .footer-section .container{
     text-align: left;
     justify-content: center;
 
-    /* display: flex; */
+    display: flex;
     flex-direction: column; 
     justify-content: center;
-}
+} */
 
-a{
-    display: inline-block;
-}
 .main-logo-footer{
     display: inline-block;
     margin-bottom: 16px;
