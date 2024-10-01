@@ -33,7 +33,7 @@ img{
 
 
 .container{
-    display: flex;
+    /* display: flex; */
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
@@ -392,14 +392,14 @@ img{
     background: #2e2f42;
     padding: 100px 0;   
 }
-/* .footer-section .container{
+.footer-section .container{
     text-align: left;
     justify-content: center;
 
     display: flex;
     flex-direction: column; 
     justify-content: center;
-} */
+}
 
 .main-logo-footer{
     
@@ -418,11 +418,6 @@ img{
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
 }
-
-.main-logo-footer .container a{
-    display: inline-block;
-}
-
 
 .main-logo-studio-footer{
     color: #f4f4fd;
