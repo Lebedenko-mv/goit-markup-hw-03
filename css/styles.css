@@ -400,7 +400,6 @@ img{
 
 
 .main-logo-footer{
-    display: inline-block;
     margin-bottom: 16px;
 
     max-width: 115px;
@@ -417,6 +416,7 @@ img{
 }
 
 .main-logo-studio-footer{
+    
     color: #f4f4fd;
     display: inline-block;
 }
