@@ -29,6 +29,9 @@ img{
     border-bottom: 1px solid  #e7e9fc;
 }
 
+
+
+
 .container{
     display: flex;
     width: 1158px;
@@ -400,7 +403,7 @@ img{
 
 .main-logo-footer{
     
-    /* display: inline-block; */
+    display: inline-block;
     margin-bottom: 16px;
 
     max-width: 115px;
@@ -416,7 +419,7 @@ img{
     font-family: "Raleway", sans-serif;
 }
 
-.main-logo-footer a{
+.main-logo-footer .container a{
     display: inline-block;
 }
 
