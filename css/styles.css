@@ -39,6 +39,10 @@ img{
     padding: 0 15px 0 15px;
 
 }
+
+.page-header .container{
+    display: flex;
+}
 .navigation{
     margin-left: 156px;
     display: flex;
