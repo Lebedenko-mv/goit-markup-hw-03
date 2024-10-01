@@ -44,7 +44,7 @@ img{
     display: flex;
 }
 .navigation{
-    margin-left: 156px;
+    /* margin-left: 156px; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -104,11 +104,13 @@ img{
 
 
 .contacts{
-
+    margin-left: 328px;
     font-style: normal;    
 }
 
 .contact-list{
+    /* margin: 0; */
+    padding: 0;
     display: flex;
     gap: 40px;
 }
