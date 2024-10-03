@@ -205,8 +205,7 @@ img{
 }
 
 .benefits-section{
-    padding: 120px 0;
-    
+    padding: 120px 0;    
 }
 .benefits-section-ul {
     margin: 0;
@@ -250,7 +249,7 @@ img{
 
 }
 .our-team-section{
-    padding: 120px 0;
+    /* padding: 120px 0; */
 }
 .our-team-section .container{
     font-size: 36px;
