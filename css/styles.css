@@ -25,10 +25,16 @@ img{
 }
 
 /* header-styles */
-
+.page-header{
+    margin: 0 auto;
+    border-bottom: 1px solid  #e7e9fc;
+    width: 1440px;
+    
+}
 .page-header .container{
     height: 72px;
-    border-bottom: 1px solid  #e7e9fc;
+    
+    
 }
 
 
@@ -44,6 +50,7 @@ img{
 
 .page-header .container{
     display: flex;
+    border-bottom: 1px solid #e7e9fc
 }
 .navigation{
     /* margin-left: 156px; */
