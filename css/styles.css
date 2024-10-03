@@ -30,7 +30,7 @@ img{
     
 }
 .page-header .container{
-    height: 72px;
+    
 }
 
 
@@ -45,6 +45,7 @@ img{
 }
 
 .page-header .container{
+    height: 72px;
     display: flex;
     border-bottom: 1px solid #e7e9fc
 }
@@ -79,7 +80,7 @@ img{
     flex-direction: row;
     gap: 40px;
 }
-.menu-item-studio .container{
+.menu-item-studio{
     padding: 24px 0;
     display: block;
     font-weight: 500;
@@ -255,7 +256,9 @@ img{
     color: #434455;
 
 }
-
+.our-team-section{
+    padding: 120px 0;
+}
 .our-team-section .container{
     font-size: 36px;
     line-height: 1.11;
@@ -263,21 +266,13 @@ img{
     text-transform: capitalize;
     color: #2e2f42;
     background: #f4f4fd;
-
     padding: 120px 0;
     width: 1440px;
-    
-}
-
-.our-team-section .container{
-    text-align: center;
-    justify-content: center;
-
     display: flex;
     flex-direction: column; 
-    align-items: center; 
-    justify-content: center;
+    align-items: center;   
 }
+
 
 .our-team-section-item{
     background-color: #fff;
@@ -395,13 +390,12 @@ img{
 
 
 
-
-.footer-section .container {
-    width: 1440px;
+.footer-section{
+    margin: 0 auto;
+    padding: 100px 0;
     background: #2e2f42;
-    padding: 100px 0;   
+    width: 1440px;
 }
-
 .main-logo-footer{
     
     display: inline-block;
