@@ -29,13 +29,6 @@ img{
     width: 1440px;
     
 }
-.page-header .container{
-    
-}
-
-
-
-
 .container{
     /* display: flex; */
     width: 1158px;
@@ -412,8 +405,6 @@ img{
     text-transform: uppercase;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
-
-    margin-left: 156px;
 }
 
 .main-logo-studio-footer{
@@ -431,8 +422,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-
-    margin-left: 156px;
 }
 
 
